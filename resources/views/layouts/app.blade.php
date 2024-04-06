@@ -13,11 +13,13 @@
     <header class=" bg-white p-5 shadow border-b">
         <div class="container mx-auto flex justify-between items-center ">
 
-            <h1 class="font-black text-3xl">BeerStagram</h1>
+            <a class="font-black text-3xl" href="/">
+                <h1>BeerStagram</h1>
+            </a>
 
             <nav class="flex gap-5 font-semibold uppercase">
                 <a href="#">Login</a>
-                <a href="#">Sign up</a>
+                <a href="{{ route('register') }}">Sign up</a>
             </nav>
 
         </div>
@@ -27,8 +29,8 @@
     </main>
 
 
-    <footer class="flex justify-center text-gray-600 font-semibold uppercase py-2">
-        BeerStagram - Todos los derechos reservados {{ now()->year }}
+    <footer class="flex justify-center text-gray-600 font-semibold uppercase py-2 text-center">
+        BeerStagram - all rights reserved {{ now()->year }}
     </footer>
 </body>
 

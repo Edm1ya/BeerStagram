@@ -6,7 +6,7 @@
 
 
 @section('content')
-    <h1 class="font-black text-3xl flex justify-center py-5">
+    <h2 class="font-extrabold text-3xl text-center">
         Pagina principal
-    </h1>
+    </h2>
 @endsection
